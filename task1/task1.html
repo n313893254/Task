@@ -2,79 +2,105 @@
 <html>
 <head>
 	<title>Task1</title>
+	<link rel="stylesheet" type="text/css" href="task1.css">
 </head>
 	<body>
 		<div id="page">
-			<h1>一级标题</h1>
-			<p>
-				<ul>
-					<li><a href="">link1</a></li>
-					<li><a href="">link2</a></li>
-					<li><a href="">link3</a></li>
-					<li><a href="">link4</a></li>
-				</ul>
-			</p>
-			<h2>文章一级标题</h2>
-			<h3>文章二级标题</h3>
-			<p>いくぜ 3-2-1 Make<a href="">doublesheep</a>Some Noise!</p>
-			<figure>
-				<img src="dafeng.jpg" width="320" height="180" title="大凤">
-				<br />
-				<figcaption>装甲空母大凤</figcaption>
-			</figure>
-			<table border="1">
-				<tr>
-					<th>表头</th>
-					<th>表头</th>
-					<th>表头</th>
-				</tr>
-				<tr>
-					<td>单元格</td>
-					<td>单元格</td>
-					<td>单元格</td>
-				</tr>
-				<tr>
-					<td>单元格</td>
-					<td>单元格</td>
-					<td>单元格</td>
-				</tr>
-				<tr>
-					<td>Total</td>
-					<td colspan="2">1000</td>
-				</tr>
-			</table>
-			<form method="post" action="">
-				<label for="username">Create a username: </label>
-				<input type="text" id="username" />
-				<div id="feedback"></div>
+			<header>
+				<nav>
+					<ul>
+						<li>home</li>
+						<li>classer</li>
+					</ul>	
+				</nav>	
+			</header>
+			<div id = "content">
+				<article>
+					<h1>文章一级标题</h1>
+					<h2>文章二级标题</h2>
+					<h3>文章三级标题</h3>
+					<p>长门号作为八八舰队计划一号舰，于1917年8月28日于吴港海军造船厂动工，1919年11月9日下水，1920年11月25日竣工。</p>
+					<p>与这对CP相关的同人二设，既有善于戏弄的陆奥反而被一本正经的长门耍的团团转，也有池面帅气的长门被陆奥吃得死死的设定。</p>	
+				</article>
+				<article>
+					<h1>文章一级标题</h1>
+					<h2>文章二级标题</h2>
+					<h3>文章三级标题</h3>
+					<p>长门号作为八八舰队计划一号舰，于1917年8月28日于吴港海军造船厂动工，1919年11月9日下水，1920年11月25日竣工。</p>	
+				</article>
+				<article>
+					<p>
+						<ul>
+							<li><a href="">link1</a></li>
+							<li><a href="">link2</a></li>
+							<li><a href="">link3</a></li>
+							<li><a href="">link4</a></li>
+						</ul>
+					</p>
+					<h2>文章一级标题</h2>
+					<h3>文章二级标题</h3>
+					<p>いくぜ 3-2-1 Make<a href="">doublesheep</a>Some Noise!</p>
+					<figure>
+						<img src="dafeng.jpg" width="320" height="180" title="大凤">
+						<br />
+						<figcaption>装甲空母大凤</figcaption>
+					</figure>
+					<table border="1">
+						<tr>
+							<th>表头</th>
+							<th>表头</th>
+							<th>表头</th>
+						</tr>
+						<tr>
+							<td>单元格</td>
+							<td>单元格</td>
+							<td>单元格</td>
+						</tr>
+						<tr>
+							<td>单元格</td>
+							<td>单元格</td>
+							<td>单元格</td>
+						</tr>
+						<tr>
+							<td>Total</td>
+							<td colspan="2">1000</td>
+						</tr>
+					</table>
+				</article>
+				<aside>
+					<form method="post" action="">
+						<label for="username">Create a username: </label>
+						<input type="text" id="username" />
+						<div id="feedback"></div>
 
-				<label for="password">Create a password: </label>
-				<input type="password" id="password"/>
+						<label for="password">Create a password: </label>
+						<input type="password" id="password"/>
 
-				<input type="submit" value="Sign up!" />
-			</form>
-
+						<input type="submit" value="Sign up!" />
+					</form>
+					<form>
+						<textarea name="conmments" cols="20" rows="4"></textarea>
+						<p>
+							<input type="radio" name="male" value="male" checked="male">male
+							<input type="radio" name="female" value="female">female
+						</p>
+						<p>
+							<input type="checkbox" name="linux" value="linux" checked="linux">linux
+							<input type="checkbox" name="windows" value="windows">windows
+							<input type="checkbox" name="mac" value="mac">mac
+						</p>
+						<p>where are you come from?</p>
+						<select name="contry">
+							<option value="China">China</option>
+							<option valeu="Japan">Japan</option>
+							<option value="America">America</option>
+						</select>
+						<input type="submit" name="subscribe" value="subscribe">
+					</form>
+				</aside>
+			</div>
 			
-
-			<form>
-				<textarea name="conmments" cols="20" rows="4"></textarea>
-				<p>
-					<input type="radio" name="male" value="male" checked="male">male
-					<input type="radio" name="female" value="female">female
-				</p>
-				<p>
-					<input type="checkbox" name="linux" value="linux" checked="linux">linux
-					<input type="checkbox" name="windows" value="windows">windows
-					<input type="checkbox" name="mac" value="mac">mac
-				</p>
-				<p>where are you come from?</p>
-				<select name="contry">
-					<option value="China">China</option>
-					<option valeu="Japan">Japan</option>
-					<option value="America">America</option>
-				</select>
-				<input type="submit" name="subscribe" value="subscribe">
-			</form>
+			
 		</div>
 		<script src="js/task1.js"></script>
 	</body>
